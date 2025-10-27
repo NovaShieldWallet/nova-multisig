@@ -2303,6 +2303,26 @@ dependencies = [
 ]
 
 [[package]]
+name = "nova-multisig"
+version = "0.1.0"
+dependencies = [
+ "futures",
+ "nova-multisig-program",
+ "solana-client",
+ "thiserror",
+]
+
+[[package]]
+name = "nova-multisig-program"
+version = "0.1.0"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "solana-program",
+ "solana-security-txt",
+]
+
+[[package]]
 name = "num"
 version = "0.2.1"
 source = "registry+https://github.com/rust-lang/crates.io-index"
@@ -4424,26 +4444,6 @@ dependencies = [
  "spl-discriminator",
  "spl-pod",
  "spl-program-error",
-]
-
-[[package]]
-name = "squads-multisig"
-version = "2.1.0"
-dependencies = [
- "futures",
- "solana-client",
- "squads-multisig-program",
- "thiserror",
-]
-
-[[package]]
-name = "squads-multisig-program"
-version = "2.1.0"
-dependencies = [
- "anchor-lang",
- "anchor-spl",
- "solana-program",
- "solana-security-txt",
 ]
 
 [[package]]

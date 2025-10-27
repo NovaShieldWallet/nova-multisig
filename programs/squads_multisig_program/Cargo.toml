@@ -1,9 +1,16 @@
 [package]
-name = "squads-multisig-program"
-version = "2.1.0"
-description = "Squads Multisig Program V4"
+name = "nova-multisig-program"
+version = "0.1.0"
+description = "Nova Shield fork of Squads Multisig Program V4"
 edition = "2021"
-license-file = "../../LICENSE"
+license = "AGPL-3.0"
+homepage = "https://nshield.org"
+authors = ["Nova Shield <hi@nshield.org>"]
+repository = "https://github.com/NovaShieldWallet/nova-multisig"
+documentation = "https://github.com/NovaShieldWallet/nova-multisig"
+keywords = ["solana", "multisig", "anchor", "nova", "blockchain"]
+categories = ["cryptography::cryptocurrencies"]
+readme = "README.md"
 
 [lib]
 crate-type = ["cdylib", "lib"]
