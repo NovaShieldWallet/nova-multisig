@@ -1,6 +1,6 @@
 [package]
 name = "nova-multisig"
-version = "0.1.0"
+version = "0.2.0"
 description = "Nova Shield fork of Squads Protocol v4 - An SDK for building automated multisig programs on Solana"
 edition = "2021"
 license = "AGPL-3.0"
@@ -18,8 +18,9 @@ name = "squads_multisig"
 
 [dependencies]
 futures = { version = "0.3.28", features = ["async-await", "alloc"] }
-squads-multisig-program = { package = "nova-multisig-program", version = "0.1.0", features = ["cpi", "no-entrypoint"] }
-solana-client = "1.17.4"
+squads-multisig-program = { path = "../../programs/squads_multisig_program", package = "nova-multisig-program", version = "0.2.0", features = ["cpi", "no-entrypoint"] }
+solana-client = "~2.2"
+solana-sdk = "~2.2"
 thiserror = "1.0.48"
 
 [features]

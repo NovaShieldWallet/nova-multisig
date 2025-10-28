@@ -5,6 +5,8 @@
 
 The Nova Shield fork of Squads Protocol v4 - A Solana multisig program with advanced features.
 
+**Now compatible with Solana 2.2+ and Anchor 0.31!**
+
 ## About
 
 This is the core program crate for the Nova Shield multisig protocol. It contains the on-chain program logic and can be used for:
@@ -100,4 +102,6 @@ AGPL-3.0 - See [LICENSE](../../LICENSE) for details.
 
 - Email: hi@nshield.org
 - Repository: https://github.com/NovaShieldWallet/nova-multisig
+
+
 

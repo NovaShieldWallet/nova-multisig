@@ -5,6 +5,8 @@
 
 A Rust SDK for interacting with the Nova Shield fork of Squads Protocol v4 on Solana.
 
+**Now compatible with Solana 2.2+!**
+
 ## About
 
 This is the official Rust SDK for the Nova Shield multisig protocol - a fork of [Squads Protocol v4](https://github.com/Squads-Protocol/v4). The Nova Shield fork maintains the same robust multisig functionality while being deployed to Nova Shield's custom program addresses.
@@ -25,7 +27,7 @@ Add this to your `Cargo.toml`:
 
 ```toml
 [dependencies]
-nova-multisig = "0.1.0"
+nova-multisig = "0.2.0"
 ```
 
 ## Quick Start
@@ -127,4 +129,6 @@ For issues related to this Nova Shield fork:
 - Repository: https://github.com/NovaShieldWallet/nova-multisig
 
 For issues related to the underlying Squads V4 protocol, please refer to the [original repository](https://github.com/Squads-Protocol/v4).
+
+
 
