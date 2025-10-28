@@ -18,7 +18,7 @@ name = "squads_multisig"
 
 [dependencies]
 futures = { version = "0.3.28", features = ["async-await", "alloc"] }
-squads-multisig-program = { path = "../../programs/squads_multisig_program", package = "nova-multisig-program", version = "0.2.0", features = ["cpi", "no-entrypoint"] }
+squads-multisig-program = { package = "nova-multisig-program", version = "0.2.0", features = ["cpi", "no-entrypoint"] }
 solana-client = "~2.2"
 solana-sdk = "~2.2"
 thiserror = "1.0.48"
