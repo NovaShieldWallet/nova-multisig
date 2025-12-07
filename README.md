@@ -128,10 +128,10 @@ yarn test
 
 ### Verifying the code
 
-First, compile the programs code from the `ceobitch/nova-multisig` Github repository to get its bytecode.
+First, compile the program code from the `NovaShieldWallet/nova-multisig` Github repository to get its bytecode.
 
 ```
-git clone https://github.com/ceobitch/nova-multisig.git
+git clone https://github.com/NovaShieldWallet/nova-multisig.git
 ```
 
 ```
@@ -162,7 +162,7 @@ Get the hash from the bytecode of the on-chain Squads program you want to verify
 solana-verify get-program-hash -u <cluster url> SQDS4ep65T869zMMBKyuUq6aD6EgTu8psMjkvj52pCf
 ```
 
-If the hash outputs of those two commands match, the code in the repository matches the on-chain programs code.
+If the hash outputs of those two commands match, the code in the repository matches the on-chain program code.
 
 ## Usage
 
@@ -199,5 +199,3 @@ The primary license for Squads Protocol v4 is the AGPL-3.0 license, see [LICENSE
 
 - The file <https://github.com/Squads-Protocol/v4/blob/main/programs/squads_multisig_program/src/utils/system.rs> is derived from code released under the [Apache 2.0 license](https://github.com/coral-xyz/anchor/blob/master/LICENSE) at <https://github.com/coral-xyz/anchor/blob/714d5248636493a3d1db1481f16052836ee59e94/lang/syn/src/codegen/accounts/constraints.rs#L1126-L1179>.
 - The file <https://github.com/Squads-Protocol/v4/blob/main/programs/squads_multisig_program/src/utils/small_vec.rs> is derived from code released under both the [Apache 2.0 license](https://github.com/near/borsh-rs/blob/master/LICENSE-APACHE) and the [MIT license](https://github.com/near/borsh-rs/blob/master/LICENSE-MIT) at <https://github.com/near/borsh-rs/blob/master/borsh/src/de/hint.rs> and <https://github.com/near/borsh-rs/blob/master/borsh/src/ser/mod.rs>.
-
-To the extent that each such file incorporates code from another source, such code is licensed under its respective open source license as provided above, and the original open source code is copyrighted by its respective owner as provided above.

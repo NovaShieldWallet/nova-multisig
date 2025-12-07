@@ -24,11 +24,11 @@ mod utils;
 #[cfg(not(feature = "no-entrypoint"))]
 security_txt! {
     name: "Nova Shield Multisig Program (Fork of Squads V4)",
-    project_url: "https://github.com/ceobitch/nova-multisig",
+    project_url: "https://github.com/NovaShieldWallet/nova-multisig",
     contacts: "email:hi@nshield.org",
-    policy: "https://github.com/ceobitch/nova-multisig/blob/main/security.txt",
+    policy: "https://github.com/NovaShieldWallet/nova-multisig/blob/main/security.txt",
     preferred_languages: "en",
-    source_code: "https://github.com/ceobitch/nova-multisig",
+    source_code: "https://github.com/NovaShieldWallet/nova-multisig",
     auditors: "Original Squads V4: OtterSec, Neodyme, Certora, Trail of Bits"
 }
 

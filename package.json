@@ -36,16 +36,16 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/ceobitch/nova-multisig.git"
+		"url": "git+https://github.com/NovaShieldWallet/nova-multisig.git"
 	},
 	"keywords": [],
 	"author": "",
 	"license": "ISC",
 	"type": "commonjs",
 	"bugs": {
-		"url": "https://github.com/ceobitch/nova-multisig/issues"
+		"url": "https://github.com/NovaShieldWallet/nova-multisig/issues"
 	},
-	"homepage": "https://github.com/ceobitch/nova-multisig#readme",
+	"homepage": "https://github.com/NovaShieldWallet/nova-multisig#readme",
 	"dependencies": {
 		"@solana/web3.js": "^1.98.4",
 		"@sqds/multisig": "^2.1.4"
