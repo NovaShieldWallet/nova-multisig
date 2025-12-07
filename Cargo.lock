@@ -2199,7 +2199,7 @@ name = "nova-multisig"
 version = "0.2.0"
 dependencies = [
  "futures",
- "nova-multisig-program",
+ "nova-multisig-program 0.2.0 (registry+https://github.com/rust-lang/crates.io-index)",
  "solana-client",
  "solana-sdk",
  "thiserror 1.0.69",
@@ -2208,6 +2208,18 @@ dependencies = [
 [[package]]
 name = "nova-multisig-program"
 version = "0.2.0"
+dependencies = [
+ "anchor-lang",
+ "anchor-spl",
+ "solana-program",
+ "solana-security-txt",
+]
+
+[[package]]
+name = "nova-multisig-program"
+version = "0.2.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "31b1c238c2cbd3f2440d8ed0095b8984e44db2e09f97933caae7766e8b570395"
 dependencies = [
  "anchor-lang",
  "anchor-spl",
